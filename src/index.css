@@ -29,5 +29,19 @@ li {
   text-decoration: underline;
 }
 .hero {
+  padding: 0 7%;
+  padding-top: 150px;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.hero-left {
+  width: 830px;
+}
+.hero-right {
+  margin-left: 60px;
+}
+.hero-right img {
+  border-radius: 10%;
 }
