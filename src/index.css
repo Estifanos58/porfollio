@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.nav {
+  padding: 2% 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-leftside__header {
+  font-size: 50px;
+}
+.nav-rightside__list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav-rightside__list a {
+  font-size: 40px;
+  color: #000;
+  text-decoration: none;
+}
+.nav-rightside__list a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.hero {
+  height: 100vh;
+}
