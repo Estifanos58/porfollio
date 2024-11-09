@@ -1,10 +1,10 @@
 import "./app.scss";
-// import Contact from "./components/contact/Contact";
+import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
-// import Portfolio from "./components/portfolio/Portfolio";
-// import Services from "./components/services/Services";
+import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
 import Cursor from "./components/cursor/Cursor";
 
 const App = () => {
@@ -19,17 +19,14 @@ const App = () => {
         <Parallax type="services" />
       </section>
       <section>
-        service
-        {/* <Services /> */}
+        <Services />
       </section>
       <section id="Portfolio">
-        portfolio
         <Parallax type="portfolio" />
       </section>
-      {/* <Portfolio /> */}
+      <Portfolio />
       <section id="Contact">
-        contact
-        {/* <Contact /> */}
+        <Contact />
       </section>
       {/* Framer Motion Crash Course */}
       {/* <Test/>
