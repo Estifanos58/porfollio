@@ -1,14 +1,41 @@
-import Nav from "./components/Nav"
-import Hero from "./components/Hero"
+import "./app.scss";
+// import Contact from "./components/contact/Contact";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
+import Parallax from "./components/parallax/Parallax";
+// import Portfolio from "./components/portfolio/Portfolio";
+// import Services from "./components/services/Services";
+import Cursor from "./components/cursor/Cursor";
 
-function App() {
-
+const App = () => {
   return (
-   <div>
-      <Nav />
-      <Hero />
-   </div>
-  )
-}
+    <div>
+      <Cursor />
+      <section id="Homepage">
+        <Navbar />
+        <Hero />
+      </section>
+      <section id="Services">
+        <Parallax type="services" />
+      </section>
+      <section>
+        service
+        {/* <Services /> */}
+      </section>
+      <section id="Portfolio">
+        portfolio
+        <Parallax type="portfolio" />
+      </section>
+      {/* <Portfolio /> */}
+      <section id="Contact">
+        contact
+        {/* <Contact /> */}
+      </section>
+      {/* Framer Motion Crash Course */}
+      {/* <Test/>
+    <Test/> */}
+    </div>
+  );
+};
 
-export default App
+export default App;

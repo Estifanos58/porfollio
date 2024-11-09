@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.11.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sass": "^1.80.6",
     "use-typewriter-hook": "^3.1.2"
   },
   "devDependencies": {
